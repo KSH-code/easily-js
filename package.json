@@ -1,0 +1,31 @@
+{
+  "name": "easily-js",
+  "version": "1.0.0",
+  "description": "Easily-js is providing high performance function",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run standard && node ./node_modules/mocha/bin/mocha $(find ./test -name '*.js') --exit",
+    "standard": "standard \"./*.js\" \"test/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSH-code/easily-js.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/KSH-code/easily-js/issues"
+  },
+  "author": "KSH-Code <tjdgnsqn133@gmail.com> (github.com/ksh-code)",
+  "license": "MIT",
+  "homepage": "https://github.com/KSH-code/easily-handle-error#readme",
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "easily-expect": "^1.0.0",
+    "fs": "0.0.1-security"
+  }
+}
