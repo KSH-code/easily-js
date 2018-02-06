@@ -4,5 +4,5 @@
 npm install --save easily-js
 ```
 # Example
-* [isEqual](https://github.com/KSH-code/easily-js/blob/master/test/isEqual.test.js)
+* [deepEqual](https://github.com/KSH-code/easily-js/blob/master/test/deepEqual.test.js)
 * [set](https://github.com/KSH-code/easily-js/blob/master/test/set.test.js)

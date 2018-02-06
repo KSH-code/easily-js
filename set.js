@@ -1,4 +1,4 @@
-const isEqual = require('./isEqual')
+const deepEqual = require('./deepEqual')
 
 /**
  * delete duplicated value
@@ -23,7 +23,7 @@ module.exports = function deleteDuplicatedValue (arr) {
     if (typeof value === 'object') {
       isFind = false
       for (let key in tempObjectArr) {
-        if (isEqual(tempObjectArr[key], value)) {
+        if (deepEqual(tempObjectArr[key], value)) {
           isFind = true
           break
         }
