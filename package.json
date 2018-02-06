@@ -12,7 +12,14 @@
     "url": "git+https://github.com/KSH-code/easily-js.git"
   },
   "keywords": [
-    "js"
+    "js",
+    "util",
+    "functional",
+    "performance",
+    "high performance",
+    "server",
+    "client",
+    "browser"
   ],
   "bugs": {
     "url": "https://github.com/KSH-code/easily-js/issues"
