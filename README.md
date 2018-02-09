@@ -3,6 +3,7 @@
 * deep equal : easily compare object
 * set : easily delete dupliacted value
 * fill : easily fill value in array
+* assign : easily combine objects
 ```
 npm install --save easily-js
 ```
@@ -10,3 +11,4 @@ npm install --save easily-js
 * [deepEqual](https://github.com/KSH-code/easily-js/blob/master/test/deepEqual.test.js)
 * [set](https://github.com/KSH-code/easily-js/blob/master/test/set.test.js)
 * [fill](https://github.com/KSH-code/easily-js/blob/master/test/fill.test.js)
+* [assign](https://github.com/KSH-code/easily-js/blob/master/test/assign.test.js)

@@ -1,6 +1,6 @@
 {
   "name": "easily-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily-js is providing high performance function",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "standard": "^10.0.3"
   },
   "dependencies": {
-    "easily-expect": "^1.0.0",
+    "easily-expect": "^1.0.1",
     "fs": "0.0.1-security"
   }
 }
