@@ -4,6 +4,7 @@
 * set : easily delete dupliacted value
 * fill : easily fill value in array
 * assign : easily combine objects
+* fiilUndefined : easily set empty item to undefined
 ```
 npm install --save easily-js
 ```
@@ -12,3 +13,4 @@ npm install --save easily-js
 * [set](https://github.com/KSH-code/easily-js/blob/master/test/set.test.js)
 * [fill](https://github.com/KSH-code/easily-js/blob/master/test/fill.test.js)
 * [assign](https://github.com/KSH-code/easily-js/blob/master/test/assign.test.js)
+* [fiilUndefined](https://github.com/KSH-code/easily-js/blob/master/test/fiilUndefined.test.js)

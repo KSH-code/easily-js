@@ -1,3 +1,4 @@
+const fillUndefined = require('./fillUndefined')
 /**
  * compare objects
  * @param {objects} obj
@@ -10,17 +11,17 @@
 module.exports = function deepEqual (...obj) {
   if (obj.length <= 1) return true
   for (let i = 0; i < obj.length - 1; i++) {
-    const obj1 = obj[i]
+    let obj1 = obj[i]
     const obj2 = obj[i + 1]
-    if (Array.isArray(obj1)) {
-      for (let j = 0; j < obj1.length; j++) {
-        if (obj1[j] === undefined) obj1[j] = undefined
-      }
-    }
+    if (Array.isArray(obj1)) obj1 = fillUndefined(obj1)
     for (let key in obj1) {
+      const value1 = obj1[key]
+      const value2 = obj2[key]
+      const isNaN1 = isNaN(value1)
+      const isNaN2 = isNaN(value2)
       if (typeof obj1[key] === 'object') {
-        if (deepEqual(obj1[key], obj2[key]) === false) return false
-      } else if (obj2[key] !== obj1[key]) return false
+        if (deepEqual(value1, value2) === false) return false
+      } else if (value1 !== value2) if ((!isNaN1 && !isNaN2) || (isNaN1 && !isNaN2) || (!isNaN1 && isNaN2)) return false
     }
     if (Object.keys(obj1).length !== Object.keys(obj2).length) return false
   }
