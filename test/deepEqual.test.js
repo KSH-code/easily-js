@@ -19,4 +19,7 @@ describe('Test deepEqual', () => {
   it('[1, 2], [1, 2]', () => {
     checkEqual(true, deepEqual([1, 2], [1, 2]))
   })
+  it('[NaN, 1, 1, NaN], [NaN, NaN, 1, 1]', () => {
+    checkEqual(false, deepEqual([NaN, 1, 1, NaN], [NaN, NaN, 1, 1]))
+  })
 })
