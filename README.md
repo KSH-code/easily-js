@@ -5,6 +5,7 @@
 * fill : easily fill value in array
 * assign : easily combine objects
 * fillUndefined : easily set empty item to undefined
+* pick : easily pick the desired value
 ```
 npm install --save easily-js
 ```
@@ -14,3 +15,4 @@ npm install --save easily-js
 * [fill](https://github.com/KSH-code/easily-js/blob/master/test/fill.test.js)
 * [assign](https://github.com/KSH-code/easily-js/blob/master/test/assign.test.js)
 * [fillUndefined](https://github.com/KSH-code/easily-js/blob/master/test/fiilUndefined.test.js)
+* [pick](https://github.com/KSH-code/easily-js/blob/master/test/pick.test.js)
