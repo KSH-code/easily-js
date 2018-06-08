@@ -20,4 +20,4 @@ npm install --save easily-js
 * [fillUndefined](https://github.com/KSH-code/easily-js/blob/master/test/fiilUndefined.test.js)
 * [pick](https://github.com/KSH-code/easily-js/blob/master/test/pick.test.js)
 * [getType](https://github.com/KSH-code/easily-js/blob/master/test/getType.test.js)
-* [getType](https://github.com/KSH-code/easily-js/blob/master/test/getUniqId.test.js)
+* [getUniqId](https://github.com/KSH-code/easily-js/blob/master/test/getUniqId.test.js)
